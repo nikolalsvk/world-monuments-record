@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D2EF5A89-B135-437A-BC23-2B927C01FD35}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjektniZadatak_NikolaDjuza</RootNamespace>
+    <AssemblyName>ProjektniZadatak-NikolaDjuza</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\Entity.cs" />
+    <Compile Include="Class\Etiketa.cs" />
+    <Compile Include="Class\Evidencija.cs" />
+    <Compile Include="Class\KlimaSpomenika.cs" />
+    <Compile Include="Class\Spomenik.cs" />
+    <Compile Include="Class\TipSpomenika.cs" />
+    <Compile Include="Class\TuristickiStatusSpomenika.cs" />
+    <Compile Include="Custom\GMapCustomImageMarker.cs" />
+    <Compile Include="Custom\MyButtonCell.cs" />
+    <Compile Include="Dialog\IzmeniTipSpomenikaValidacija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\IzmeniTipSpomenikaValidacija.Designer.cs">
+      <DependentUpon>IzmeniTipSpomenikaValidacija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrikazEtiketaSpomenikaFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrikazEtiketaSpomenikaFrame.Designer.cs">
+      <DependentUpon>PrikazEtiketaSpomenikaFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TutorialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TutorialForm.Designer.cs">
+      <DependentUpon>TutorialForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UnosEtiketaSpomenikaFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnosEtiketaSpomenikaFrame.Designer.cs">
+      <DependentUpon>UnosEtiketaSpomenikaFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrikazTipSpomenikaFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrikazTipSpomenikaFrame.Designer.cs">
+      <DependentUpon>PrikazTipSpomenikaFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UnosTipSpomenikaFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnosTipSpomenikaFrame.Designer.cs">
+      <DependentUpon>UnosTipSpomenikaFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrame.Designer.cs">
+      <DependentUpon>MainFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UnosSpomenikFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnosSpomenikFrame.Designer.cs">
+      <DependentUpon>UnosSpomenikFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrikazSpomenikaFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrikazSpomenikaFrame.Designer.cs">
+      <DependentUpon>PrikazSpomenikaFrame.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dialog\IzmeniTipSpomenikaValidacija.resx">
+      <DependentUpon>IzmeniTipSpomenikaValidacija.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrikazEtiketaSpomenikaFrame.resx">
+      <DependentUpon>PrikazEtiketaSpomenikaFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TutorialForm.resx">
+      <DependentUpon>TutorialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnosEtiketaSpomenikaFrame.resx">
+      <DependentUpon>UnosEtiketaSpomenikaFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrikazTipSpomenikaFrame.resx">
+      <DependentUpon>PrikazTipSpomenikaFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrame.resx">
+      <DependentUpon>MainFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnosSpomenikFrame.resx">
+      <DependentUpon>UnosSpomenikFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrikazSpomenikaFrame.resx">
+      <DependentUpon>PrikazSpomenikaFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnosTipSpomenikaFrame.resx">
+      <DependentUpon>UnosTipSpomenikaFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\default1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google-maps-marker-for-residencelamontagne-hi.png" />
+    <Content Include="Resources\map.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,17 @@
+E:\Documents\VI\HCI\ProjektniZadatak\ProjektniZadatak-NikolaDjuza\ProjektniZadatak-NikolaDjuza\bin\Debug\ProjektniZadatak-NikolaDjuza.exe.config
+E:\Documents\VI\HCI\ProjektniZadatak\ProjektniZadatak-NikolaDjuza\ProjektniZadatak-NikolaDjuza\bin\Debug\ProjektniZadatak-NikolaDjuza.exe
+E:\Documents\VI\HCI\ProjektniZadatak\ProjektniZadatak-NikolaDjuza\ProjektniZadatak-NikolaDjuza\bin\Debug\ProjektniZadatak-NikolaDjuza.pdb
+E:\Documents\VI\HCI\ProjektniZadatak\ProjektniZadatak-NikolaDjuza\ProjektniZadatak-NikolaDjuza\obj\Debug\ProjektniZadatak-NikolaDjuza.csprojResolveAssemblyReference.cache
+E:\Documents\VI\HCI\ProjektniZadatak\ProjektniZadatak-NikolaDjuza\ProjektniZadatak-NikolaDjuza\obj\Debug\ProjektniZadatak_NikolaDjuza.Properties.Resources.resources
+E:\Documents\VI\HCI\ProjektniZadatak\ProjektniZadatak-NikolaDjuza\ProjektniZadatak-NikolaDjuza\obj\Debug\ProjektniZadatak-NikolaDjuza.csproj.GenerateResource.Cache
+E:\Documents\VI\HCI\ProjektniZadatak\ProjektniZadatak-NikolaDjuza\ProjektniZadatak-NikolaDjuza\obj\Debug\ProjektniZadatak-NikolaDjuza.exe
+E:\Documents\VI\HCI\ProjektniZadatak\ProjektniZadatak-NikolaDjuza\ProjektniZadatak-NikolaDjuza\obj\Debug\ProjektniZadatak-NikolaDjuza.pdb
+E:\Documents\VI\HCI\ProjektniZadatak\ProjektniZadatak-NikolaDjuza\ProjektniZadatak-NikolaDjuza\obj\Debug\ProjektniZadatak_NikolaDjuza.MainFrame.resources
+E:\Documents\VI\HCI\ProjektniZadatak\ProjektniZadatak-NikolaDjuza\ProjektniZadatak-NikolaDjuza\obj\Debug\ProjektniZadatak_NikolaDjuza.Dialog.IzmeniTipSpomenikaValidacija.resources
+E:\Documents\VI\HCI\ProjektniZadatak\ProjektniZadatak-NikolaDjuza\ProjektniZadatak-NikolaDjuza\obj\Debug\ProjektniZadatak_NikolaDjuza.UnosTipSpomenikaFrame.resources
+E:\Documents\VI\HCI\ProjektniZadatak\ProjektniZadatak-NikolaDjuza\ProjektniZadatak-NikolaDjuza\obj\Debug\ProjektniZadatak_NikolaDjuza.UnosEtiketaSpomenikaFrame.resources
+E:\Documents\VI\HCI\ProjektniZadatak\ProjektniZadatak-NikolaDjuza\ProjektniZadatak-NikolaDjuza\obj\Debug\ProjektniZadatak_NikolaDjuza.PrikazTipSpomenikaFrame.resources
+E:\Documents\VI\HCI\ProjektniZadatak\ProjektniZadatak-NikolaDjuza\ProjektniZadatak-NikolaDjuza\obj\Debug\ProjektniZadatak_NikolaDjuza.UnosSpomenikFrame.resources
+E:\Documents\VI\HCI\ProjektniZadatak\ProjektniZadatak-NikolaDjuza\ProjektniZadatak-NikolaDjuza\obj\Debug\ProjektniZadatak_NikolaDjuza.PrikazSpomenikaFrame.resources
+E:\Documents\VI\HCI\ProjektniZadatak\ProjektniZadatak-NikolaDjuza\ProjektniZadatak-NikolaDjuza\obj\Debug\ProjektniZadatak_NikolaDjuza.PrikazEtiketaSpomenikaFrame.resources
+E:\Documents\VI\HCI\ProjektniZadatak\ProjektniZadatak-NikolaDjuza\ProjektniZadatak-NikolaDjuza\obj\Debug\ProjektniZadatak_NikolaDjuza.TutorialForm.resources

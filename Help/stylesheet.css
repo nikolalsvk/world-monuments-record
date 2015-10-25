@@ -1,0 +1,18 @@
+body {
+  	width: 70%;
+	background-image: url("background.jpg");
+    	background-repeat: repeat-y;
+}
+
+p { 
+	color: black; 
+	text-align: justify; 
+	font-size: 16;
+	width: 70%;
+}
+
+h1 {
+	color : red;
+	font-size: 36;
+}
+

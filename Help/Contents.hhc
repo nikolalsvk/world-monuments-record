@@ -1,0 +1,85 @@
+﻿<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Precision Helper 2.0.1">
+<!-- Sitemap 1.0 -->
+</HEAD>
+<BODY>
+    <OBJECT type="text/site properties">
+      <param name="FrameName" value="right">
+      <param name="Window Styles" value="0x00800425">
+      <param name="comment" value="title:Untitled">
+      <param name="comment" value="base:index.htm">
+    </OBJECT>
+    <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Evidencija spomenika pomoc">
+          <param name="Local" value="index.htm">
+        </OBJECT>
+        <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Osnove u radu sa evidencijom spomenika">
+              <param name="Local" value="osnove.htm">
+            </OBJECT>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Precice">
+              <param name="Local" value="precice.htm">
+            </OBJECT>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Brisanje entiteta">
+              <param name="Local" value="brisanje_entiteta.htm">
+            </OBJECT>
+            <UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Brisanje spomenika">
+                  <param name="Local" value="brisanje_spomenika.htm">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Brisanje tipa">
+                  <param name="Local" value="brisanje_tipa.htm">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Brisanje etikete">
+                  <param name="Local" value="brisanje_etikete.htm">
+                </OBJECT>
+            </UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Unos i izmena entiteta">
+              <param name="Local" value="dodavanje_entiteta.htm">
+            </OBJECT>
+            <UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Unos i izmena spomenika">
+                  <param name="Local" value="dodavanje_spomenika.htm">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Unos i izmena tipa">
+                  <param name="Local" value="dodavanje_tipa.htm">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Unos i izmena etikete">
+                  <param name="Local" value="dodavanje_etikete.htm">
+                </OBJECT>
+            </UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Prikaz entiteta">
+              <param name="Local" value="prikaz_entiteta.htm">
+            </OBJECT>
+            <UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Prikaz spomenika">
+                  <param name="Local" value="prikaz_spomenika.htm">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Prikaz tipova">
+                  <param name="Local" value="prikaz_tipova.htm">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Prikaz etiketa">
+                  <param name="Local" value="prikaz_etiketa.htm">
+                </OBJECT>
+            </UL>
+        </UL>
+    </UL>
+</BODY>
+</HTML>

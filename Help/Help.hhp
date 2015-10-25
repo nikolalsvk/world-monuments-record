@@ -1,0 +1,43 @@
+﻿[OPTIONS]
+Title=Untitled
+Compiled file=Help.chm
+Error log file=_errorlog.txt
+Default topic=index.htm
+Language=0x241A Serbian (Latin, Serbia)
+Full text search stop list file=StopList.txt
+Contents file=Contents.hhc
+Index file=Index.hhk
+Binary TOC=No
+Auto index=No
+Binary Index=Yes
+Create CHI file=No
+Full-text search=Yes
+Display compile progress=Yes
+Display compile notes=Yes
+Default window=MyType
+Enhanced decompilation=No
+Flat=No
+Compatibility=1.1 or later
+Default Font=MS Sans Serif,8,0
+
+[WINDOWS]
+MyType="Evidencija spomenika pomoć","Contents.hhc","Index.hhk","index.htm","index.htm",,,,,0x00063520,264,0x0010386E,[15,48,819,445],,,,0,0,0,0
+
+[ALIAS]
+IDH_prikaz_tipova=prikaz_tipova.htm
+IDH_prikaz_spomenika=prikaz_spomenika.htm
+IDH_prikaz_etiketa=prikaz_etiketa.htm
+IDH_osnove=osnove.htm
+IDH_dodavanje_tipa=dodavanje_tipa.htm
+IDH_dodavanje_spomenika=dodavanje_spomenika.htm
+IDH_dodavanje_etikete=dodavanje_etikete.htm
+
+[MAP]
+#define IDH_prikaz_tipova 7
+#define IDH_prikaz_spomenika 6
+#define IDH_prikaz_etiketa 5
+#define IDH_osnove 4
+#define IDH_dodavanje_tipa 3
+#define IDH_dodavanje_spomenika 2
+#define IDH_dodavanje_etikete 1
+
